@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Rozha One', serif;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+button {
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.board {
+    margin: 100px auto;
+    /*para que no haya margenes entre celdas*/
+    border-collapse: collapse;
+}
+
+.board td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 22px;
+}
+
+.board td:hover {
+    background-color: gray;
+}
+
